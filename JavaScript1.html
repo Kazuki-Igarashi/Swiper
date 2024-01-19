@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="JavaScript1.css">
+  <title>Swiper</title>
+</head>
+<body>
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+      <img src="sakura.jpg" data-swiper-parallax-x="100%" data-swiper-parallax-scale="1.1">
+      <div class="texts" data-swiper-parallax-x="50%" data-swiper-parallax-opacity="0">
+      <p class="title" data-swiper-parallax-x="-50%" data-swiper-parallax-duration="1000">桜</p>
+      <p data-swiper-parallax-x="-50%" data-swiper-parallax-duration="1100">桜の季節です。きれいな桜を見ることが出来ます。</p>
+      </div>
+      </div>
+      <div class="swiper-slide">
+      <img src="sakura1.jpg" data-swiper-parallax-x="100%" data-swiper-parallax-scale="1.1">
+      <div class="texts" data-swiper-parallax-x="50%" data-swiper-parallax-opacity="0">
+      <p class="title" data-swiper-parallax-x="-50%" data-swiper-parallax-duration="1000">宿と枝垂桜</p>
+      <p data-swiper-parallax-x="-50%" data-swiper-parallax-duration="1100">宿の坂を下りると枝垂桜が見えます。景観が非常にいいです。</p>
+      </div>
+      </div>
+      <div class="swiper-slide">
+      <img src="moon.jpg" data-swiper-parallax-x="100%" data-swiper-parallax-scale="1.1">
+      <div class="texts" data-swiper-parallax-x="50%" data-swiper-parallax-opacity="0">
+      <p class="title" data-swiper-parallax-x="-50%" data-swiper-parallax-duration="1000">月と山</p>
+      <p data-swiper-parallax-x="-50%" data-swiper-parallax-duration="1100">湖と山の背景に満月が見えます。幻想的な景観です。</p>
+      </div>
+      </div>
+       <!-- ページネーション -->
+      <div class="swiper-pagination"></div>
+      <!-- 前後の矢印 -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+   </div>
+  </div>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="JavaScript1.js"></script>
+
+</body>
+</html>
